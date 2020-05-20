@@ -7,7 +7,6 @@ spec:
   # modify replicas according to your case
   replicas: 3
   selector:
-    app: MyApp
     matchLabels:
       env: production
     matchExpressions:
